@@ -1,0 +1,74 @@
+*{
+    margin: 0; /* reset básico */ 
+    padding: 0; /* reset básico */
+    font-size: 20px; /* reset básico */
+}
+body{  /* estilização do corpo */
+    background-color: #3E85CD; /* cor de fundo do corpo da tela */
+    overflow-x: hidden;  /* retirada da barra de rolagem */
+    background: linear-gradient(68deg, #0063c7 40%, #00b6f6 60%); /* cores de fundo gradiente */
+    
+}
+header{ /* estilização do cabeçalho */
+    max-width: 1600px; /* máxima largura */
+    background-color: #6E718B; /* cor de fundo */
+    margin: 40px; /* margem cima, direita, baixo e esquerda */
+    padding: 35px; /* distância entre os elementos e as bordas */  
+    color: #FFFFFF; /* definição da cor */ 
+    margin-bottom: 16px; /* margem baixo */
+    border-radius: 48px; /* aredondamento das quatro bordas */
+    background: linear-gradient(68deg, #00b6f6 40%, #0063c7 60%); /* cores de fundo gradiente */
+}
+
+h1{ /* estilização do Título */
+    font-size: 44px;  /* tamanho da fonte */
+    font-family: 'Quicksand', sans-serif; /* nome da fonte */ 
+}
+h2{ /* estilização do subtítulo */
+    font-family: 'Comfortaa', sans-serif; /* nome da fonte */
+    font-size: 16px; /* tamanho da fonte */
+}
+p{ /* estilização dos quatro primeiros parágrafos de informações principais */
+    width: 200px; /* largura */
+    text-align: center; /* alinhamento do texto */
+    line-height: 1; /* espaço entre as linhas do texto */
+    background-color: rgba(209, 156, 86, 0.87); /* cor de fundo */
+    margin: 20px 80px 40px 40px; /* definição de margem */
+    border: solid rgb(25, 18, 126); /* tipo e cor das bordas */
+    border-width: 4px; /* largura das bordas */
+    padding: 20px 50px 20px 35px; /* distância entre os elementos e as bordas */
+    font-family: 'Comfortaa', sans-serif; /* nome da fonte */
+    font-size: 25px; /* tamanho da fonte */
+    color: #FFFFFF; /* cor da fonte */
+    margin-bottom: 10px;/* margem baixo */
+    border-radius: 16px;/* arredondamento das bordas */
+    background: linear-gradient(75deg, #e77d3f 80%, #bfbfbf 88%);/* cores de fundo gradiente */
+}
+img{/* estilização da imagem */    
+    max-width: 600px;/* largura máxima */
+    max-height: 350px;/* altura máxima */
+    margin: 550px;/* margens */
+    margin-top: -450px;/* margem cima */
+    margin-bottom: 180px;/* margem baixo */
+}
+
+p1{/* estilização dos textos dos parágrafos de orientações */
+    width: 300px;/* largura */
+    text-align: center;/* alinhamento de texto */
+    line-height: 1;/* espaço entre as linhas do texto */
+    background-color: rgb(247, 247, 136);/* cor de fundo */
+    margin: 24px;/* margens */
+    border: solid rgb(209, 66, 0);/* cor e tipo das bordas */
+    border-width: 8px;/* largura das bordas */
+    padding: 20px 50px 20px 35px;/* espaçamento entre os elementos e as bordas */   
+    border-radius: 16px;/* arredondamento das bordas */
+    border-top: none;/* sem definição de arrendondamento das bordas superiores */
+    background: linear-gradient(68deg, #d3ceaa 80%, #bfbfbf 88%);/* cores de fundo gradiente */
+}
+footer{/* estilização do rodapé */
+    background-color: #01213A;/* cor de fundo */
+    padding: 46px;/* espço entre os elementos e as bordas */
+    color: antiquewhite;/* cor da fonte */
+    text-align: center;/* alinhamento de texto */
+    max-width: 1300px;/* largura máxima */
+}
